@@ -1,0 +1,20 @@
+# Dependencies
+node_modules/
+
+# Claude Code
+.claude/
+
+# Environment / secrets
+.env
+
+# Generated DB (regenerada via migrate + seed)
+*.sqlite3
+
+# Logs
+*.log
+npm-debug.log*
+
+# OS / editor cruft
+.DS_Store
+Thumbs.db
+.vscode/
